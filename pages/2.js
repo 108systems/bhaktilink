@@ -6,28 +6,28 @@ import Page from '../components/Page'
 import Slide from '../components/Slide'
 import Nav from '../components/Nav'
 
-const Slide1 = () => {
+const Slide2 = () => {
   return (
     <Box fill align='center' justify='center' direction='row' animation='fadeIn'>
       <Box fill>
-        <Image src='/static/img/city.jpg' fit='cover' />
+        <Image src='/static/img/stars.jpg' fit='cover' />
       </Box>
       <Box fill align='center' justify='center'>
-        <Text size='large'>Slide 1</Text>
+        <Text size='large'>Slide 2</Text>
       </Box>
     </Box>
   )
 }
 
-const Home = () => {
+const Slide2Page = () => {
   return (
     <Page>
       <Slide>
-        <Slide1 />
+        <Slide2 />
       </Slide>
       <Nav />
     </Page>
   )
 }
 
-export default Home
+export default Slide2Page
