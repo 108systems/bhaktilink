@@ -1,0 +1,19 @@
+{
+  "name": "bhakti.link",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "grommet": "2.7.7",
+    "grommet-icons": "4.3.0",
+    "styled-components": "4.3.2"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.8.0"
+  }
+}
