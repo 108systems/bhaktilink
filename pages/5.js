@@ -25,11 +25,11 @@ import { Page, Slide, Nav, Share, YoutubeVideo } from '../components'
 
 const Slide5 = () => {
   return (
-    <Box fill align='center' justify='start' pad='medium' gap='small'>
+    <Box fill align='center' justify='center' pad='large' gap='small'>
+      <Text size='large'>Thank You! Spread the ❤️</Text>
       <Share />
       <Text size='large'>Learn more on Bhakti Yoga</Text>
       <Box fill align='center' justify='center'><YoutubeVideo src='https://www.youtube.com/embed/CyB071tzOi8' /></Box>
-      <Box fill='horizontal' height='48px' />
     </Box>
   )
 }
