@@ -12,7 +12,7 @@ class MyApp extends App {
     const { Component, pageProps } = this.props
     return (
       <React.Fragment>
-        <Audio src='/static/audio/background.mp3' />
+        <Audio src='https://drive.google.com/uc?export=download&id=1FHrDeiiYeFO8kgmYxeLwho3RupPeGf0R' />
         <Component {...pageProps} />
       </React.Fragment>
     )

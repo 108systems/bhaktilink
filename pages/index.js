@@ -13,7 +13,7 @@ const Slide1 = () => {
       <Box fill>
         <Image src='/static/img/happiness.jpg' fit='cover' />
       </Box>
-      <Box fill align='center' justify='center'>
+      <Box fill align='center' justify='center' pad='large'>
         <Text weight='bold' size={textSize}>We are all looking for <Link href='/2'><Anchor><Text size={textSize}>happiness</Text></Anchor></Link>...</Text>
       </Box>
     </Box>

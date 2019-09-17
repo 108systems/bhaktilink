@@ -13,7 +13,7 @@ const Slide4 = () => {
       <Box fill>
         <Image src='/static/img/love.jpg' fit='cover' />
       </Box>
-      <Box fill align='center' justify='center'>
+      <Box fill align='center' justify='center' pad='large'>
         <Paragraph size={textSize}>
           <i>Its only to <Text weight='bold' size={textSize}>love</Text> and to <Text weight='bold' size={textSize}>be loved</Text> that we can actually experience pleasure within ourselves
           and the origin of that love from a spiritual perspective is the true <Link href='/5'><Anchor><Text color='neutral-4' size={textSize}>journey within</Text></Anchor></Link></i>

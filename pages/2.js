@@ -13,7 +13,7 @@ const Slide2 = () => {
       <Box fill>
         <Image src='/static/img/city.jpg' fit='cover' />
       </Box>
-      <Box fill align='center' justify='center'>
+      <Box fill align='center' justify='center' pad='large'>
         <Paragraph size={textSize}>
           <i>We are trying to find it through wealth, power, sexual pleasures, acquisition of property and money, through enterteinment
           but somehow or other that happiness has beginning, has an end and has so many <Link href='/3'><Anchor><Text color='neutral-3' size={textSize}>limitations and vulnerabilities</Text></Anchor></Link>...</i>
