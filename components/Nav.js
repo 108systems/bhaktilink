@@ -3,9 +3,16 @@ import { Box, Anchor } from 'grommet'
 import { Radial, RadialSelected } from 'grommet-icons'
 import { useRouter } from 'next/router'
 
+const slides = [
+  { href: '/' },
+  { href: '/2' },
+  { href: '/3' },
+  { href: '/4' },
+  { href: '/5' }
+]
+
 export default () => {
   const router = useRouter()
-  console.log('pathname', router.pathname)
   return (
     <Box
       direction='row'
@@ -13,16 +20,15 @@ export default () => {
       justify='center'
       gap='small'
       fill='horizontal'
-      height='xsmall'
       background={{ color: 'black', opacity: 'medium' }}
       style={{
         position: 'absolute',
         left: 0,
         right: 0,
-        bottom: 0
+        bottom: 0,
+        zIndex: 1000
       }}>
-      <Link href='/'><Anchor icon={router.pathname === '/' ? <RadialSelected size='small' /> : <Radial size='small' color='white' />} /></Link>
-      <Link href='/2'><Anchor icon={router.pathname === '/2' ? <RadialSelected size='small' /> : <Radial size='small' color='white' />} /></Link>
+      {slides.map(slide => <Link key={slide.href} href={slide.href}><Anchor icon={router.pathname === slide.href ? <RadialSelected size='small' /> : <Radial size='small' color='white' />} /></Link>)}
     </Box>
   )
 }

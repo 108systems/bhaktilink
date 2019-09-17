@@ -5,18 +5,18 @@ import { Box, Image, Paragraph, ResponsiveContext, Anchor, Text } from 'grommet'
 
 import { Page, Slide, Nav } from '../components'
 
-const Slide2 = () => {
+const Slide3 = () => {
   const screen = React.useContext(ResponsiveContext)
   const textSize = screen === 'small' ? 'medium' : 'xlarge'
   return (
     <Box fill align='center' justify='center' direction='row' animation='fadeIn'>
       <Box fill>
-        <Image src='/static/img/city.jpg' fit='cover' />
+        <Image src='/static/img/stars.jpg' fit='cover' />
       </Box>
       <Box fill align='center' justify='center'>
         <Paragraph size={textSize}>
-          <i>We are trying to find it through wealth, power, sexual pleasures, acquisition of property and money, through enterteinment
-          but somehow or other that happiness has beginning, has an end and has so many <Link href='/3'><Anchor><Text color='neutral-3' size={textSize}>limitations and vulnerabilities</Text></Anchor></Link>...</i>
+          <i>All great sages from all the spiritual traditions throughout the world have taught us that true happiness is within ourselves
+          and things could give some degree of pleasure for some time to the mind and senses but things can not give fullfillment to the <Link href='/4'><Anchor><Text size={textSize} color='neutral-1'>heart</Text></Anchor></Link>...</i>
         </Paragraph>
       </Box>
     </Box>
@@ -27,7 +27,7 @@ export default () => {
   return (
     <Page>
       <Slide>
-        <Slide2 />
+        <Slide3 />
       </Slide>
       <Nav />
     </Page>
