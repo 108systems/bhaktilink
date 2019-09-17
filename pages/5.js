@@ -29,7 +29,7 @@ const Slide5 = () => {
       <Text size='large'>Thank You! Spread the ❤️</Text>
       <Share />
       <Text size='large'>Learn more on Bhakti Yoga</Text>
-      <Box fill align='center' justify='center'><YoutubeVideo src='https://www.youtube.com/embed/CyB071tzOi8' /></Box>
+      <Box align='center' justify='center'><YoutubeVideo src='https://www.youtube.com/embed/CyB071tzOi8' /></Box>
     </Box>
   )
 }
